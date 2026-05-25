@@ -1,0 +1,24 @@
+Blockly.Blocks['1748484837260'] = {
+  init: function() {
+    this.jsonInit({
+      "type": "1748484837260",
+      "message0": "wqnmb",
+      "previousStatement": "motion_block",
+      "nextStatement": "motion_block",
+      "colour": '#C643F1',
+      "toolip": "",
+      "helpUrl": ""
+    });
+  }
+};
+
+Blockly.Lua['1748484837260'] = function(block) {
+  let code = "MOTOsetspeed(30)\nMOTOrigid16(40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,0,0,0)\nMOTOsetspeed(30)\nMOTOmove19(79, 29, 188, 98, 88, 10, 112, 98, 120, 169, 20, 99, 107, 179, 94, 98, 0, 0, 100)\nMOTOwait()\nMOTOsetspeed(15)\nMOTOmove19(79, 28, 112, 94, 86, 10, 112, 94, 120, 173, 87, 95, 107, 179, 94, 96, 0, 0, 100)\nMOTOwait()\nMOTOsetspeed(30)\nMOTOmove19(79, 28, 112, 98, 106, 55, 117, 102, 120, 173, 87, 99, 91, 142, 86, 97, 0, 0, 100)\nMOTOwait()\nMOTOsetspeed(20)\nMOTOmove19(92, 78, 112, 29, 88, 60, 190, 94, 118, 113, 86, 174, 110, 150, 10, 97, 0, 0, 100)\nMOTOwait()\nMOTOsetspeed(30)\nMOTOmove19(38, 151, 10, 41, 63, 14, 190, 94, 164, 45, 190, 174, 110, 150, 10, 97, 0, 0, 100)\nMOTOwait()\nMOTOsetspeed(30)\nMOTOmove19(38, 151, 10, 46, 39, 117, 41, 99, 164, 45, 190, 170, 116, 62, 146, 82, 0, 0, 100)\nMOTOwait()\nMOTOsetspeed(30)\nMOTOmove19(37, 153, 10, 37, 83, 36, 51, 91, 164, 45, 190, 167, 104, 150, 158, 99, 0, 0, 100)\nMOTOwait()\nMOTOsetspeed(30)\nMOTOmove19(55, 185, 26, 36, 133, 29, 105, 95, 118, 29, 182, 176, 46, 149, 99, 101, 0, 0, 100)\nMOTOwait()\nMOTOsetspeed(30)\nMOTOmove19(54, 183, 26, 102, 160, 11, 130, 100, 142, 20, 181, 100, 40, 190, 63, 102, 0, 0, 100)\nMOTOwait()\nMOTOsetspeed(15)\nMOTOmove19(130, 181, 22, 102, 160, 11, 130, 100, 71, 18, 181, 100, 40, 190, 63, 102, 0, 0, 100)\nMOTOwait()\nMOTOsetspeed(30)\nMOTOmove19(55, 185, 26, 100, 160, 135, 40, 101, 150, 20, 184, 101, 40, 64, 161, 101, 0, 0, 100)\nMOTOwait()\nMOTOsetspeed(30)\nMOTOmove19(129, 184, 14, 100, 160, 135, 40, 101, 75, 19, 184, 101, 40, 64, 161, 101, 0, 0, 100)\nMOTOwait()\nMOTOsetspeed(30)\nMOTOmove19(129, 184, 14, 100, 140, 150, 56, 100, 75, 19, 184, 100, 61, 50, 143, 100, 0, 0, 100)\nMOTOwait()\nMOTOsetspeed(30)\nMOTOmove19(98, 185, 14, 101, 158, 150, 73, 99, 84, 28, 186, 101, 40, 64, 161, 101, 0, 0, 100)\nMOTOwait()\nMOTOsetspeed(30)\nMOTOmove19(98, 185, 14, 102, 144, 150, 58, 97, 84, 28, 186, 101, 55, 50, 143, 100, 0, 0, 100)\nMOTOwait()\nMOTOsetspeed(30)\nMOTOmove19(98, 185, 14, 101, 125, 89, 62, 96, 84, 28, 186, 101, 78, 111, 141, 98, 0, 0, 100)\nMOTOwait()\nMOTOsetspeed(30)\nMOTOmove19(85, 27, 117, 101, 125, 89, 62, 96, 122, 172, 81, 101, 78, 111, 141, 98, 0, 0, 100)\nMOTOwait()\nMOTOrigid16(60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,0,0,0)\nMOTOsetspeed(30)\nMOTOmove19(80, 90, 101, 101, 93, 57, 124, 101, 131, 100, 98, 102, 107, 143, 77, 99, 0, 0, 100)\nMOTOwait()\nMOTOsetspeed(53)\nMOTOmove19(74, 95, 101, 100, 92, 47, 46, 100, 134, 101, 98, 101, 106, 154, 157, 99, 0, 0, 100)\nMOTOwait()\nMOTOsetspeed(53)\nMOTOmove19(37, 92, 182, 100, 92, 68, 44, 100, 153, 107, 19, 101, 106, 129, 158, 99, 0, 0, 100)\nMOTOwait()\nMOTOsetspeed(53)\nMOTOmove19(82, 33, 169, 100, 157, 150, 43, 100, 130, 161, 35, 101, 45, 50, 161, 99, 0, 0, 100)\nMOTOwait()\nMOTOsetspeed(53)\nMOTOmove19(90, 15, 155, 100, 160, 150, 35, 100, 110, 185, 45, 100, 40, 50, 165, 100, 0, 0, 100)\nMOTOwait()\nMOTOrigid16(60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,0,0,0)\nMOTOsetspeed(53)\nMOTOmove19(90, 15, 155, 100, 160, 150, 35, 100, 110, 185, 45, 100, 40, 50, 165, 100, 0, 0, 100)\nMOTOwait()\nDelayMs(50)\nMOTOsetspeed(42)\nMOTOmove19(90, 15, 140, 100, 160, 150, 50, 100, 110, 185, 60, 100, 40, 50, 150, 100, 0, 0, 100)\nMOTOwait()\nMOTOrigid16(60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,0,0,0)\nMOTOsetspeed(40)\nMOTOmove19(80, 30, 113, 100, 155, 150, 62, 100, 120, 170, 87, 100, 45, 50, 138, 100, 0, 0, 100)\nMOTOwait()\nMOTOrigid16(60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,0,0,0)\nMOTOsetspeed(40)\nMOTOmove19(80, 30, 113, 100, 155, 150, 62, 100, 120, 170, 87, 100, 45, 50, 138, 100, 0, 0, 100)\nMOTOwait()\nDelayMs(50)\nMOTOsetspeed(40)\nMOTOmove19(80, 30, 113, 100, 135, 150, 62, 100, 120, 170, 87, 100, 65, 50, 138, 100, 0, 0, 100)\nMOTOwait()\nMOTOrigid16(60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,0,0,0)\nMOTOsetspeed(40)\nMOTOmove19(80, 30, 113, 100, 135, 150, 62, 100, 120, 170, 87, 100, 65, 50, 138, 100, 0, 0, 100)\nMOTOwait()\nDelayMs(150)\nMOTOsetspeed(25)\nMOTOmove19(80, 30, 113, 84, 136, 150, 60, 88, 120, 170, 87, 102, 64, 50, 139, 106, 0, 0, 100)\nMOTOwait()\nMOTOsetspeed(25)\nMOTOmove19(80, 30, 113, 95, 116, 61, 135, 94, 120, 170, 87, 109, 82, 124, 77, 104, 0, 0, 100)\nMOTOwait()\nMOTOsetspeed(25)\nMOTOmove19(80, 30, 100, 100, 93, 55, 124, 100, 120, 170, 100, 100, 107, 145, 76, 100, 0, 0, 100)\nMOTOwait()\nMOTOrigid16(60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,0,0,0)\n";
+  return code;
+}
+
+Blockly.Python['1748484837260'] = function(block) {
+  let code = "base_action.action('wqnmb')\n";
+  return code;
+}
+
