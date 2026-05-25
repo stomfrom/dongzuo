@@ -1,0 +1,24 @@
+Blockly.Blocks['1748337762254'] = {
+  init: function() {
+    this.jsonInit({
+      "type": "1748337762254",
+      "message0": "bkzy",
+      "previousStatement": "motion_block",
+      "nextStatement": "motion_block",
+      "colour": '#C643F1',
+      "toolip": "",
+      "helpUrl": ""
+    });
+  }
+};
+
+Blockly.Lua['1748337762254'] = function(block) {
+  let code = "MOTOsetspeed(30)\nMOTOrigid16(20,20,20,65,55,55,55,35,20,20,20,65,85,95,85,35,0,0,0)\nMOTOsetspeed(65)\nMOTOmove19(60, 15, 190, 85, 117, 90, 110, 90, 132, 187, 10, 110, 107, 146, 71, 100, 0, 0, 100)\nMOTOwait()\nDelayMs(50)\nMOTOsetspeed(75)\nMOTOmove19(60, 15, 190, 95, 93, 53, 126, 105, 132, 187, 10, 120, 116, 160, 63, 130, 0, 0, 100)\nMOTOwait()\nMOTOsetspeed(30)\nMOTOmove19(60, 15, 190, 95, 93, 53, 126, 105, 132, 187, 10, 113, 117, 161, 64, 131, 0, 0, 100)\nMOTOwait()\nMOTOsetspeed(30)\nMOTOmove19(60, 15, 190, 100, 93, 54, 129, 98, 132, 187, 10, 103, 107, 146, 71, 105, 0, 0, 100)\nMOTOwait()\nMOTOsetspeed(20)\nMOTOmove19(60, 15, 190, 100, 93, 55, 129, 95, 132, 187, 10, 100, 107, 145, 71, 105, 0, 0, 100)\nMOTOwait()\nDelayMs(50)\nMOTOsetspeed(20)\nMOTOmove19(60, 15, 190, 100, 93, 55, 129, 100, 132, 187, 10, 100, 107, 145, 71, 100, 0, 0, 100)\nMOTOwait()\n";
+  return code;
+}
+
+Blockly.Python['1748337762254'] = function(block) {
+  let code = "base_action.action('bkzy')\n";
+  return code;
+}
+
